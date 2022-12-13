@@ -16,7 +16,7 @@ jobs:
           echo "We're no strangers to love"
       - name: Lint
         run: |
-          npm lint
+          npm run lint
           echo "You know the rules, and so do I"
       - name: Run tests
         run: |
